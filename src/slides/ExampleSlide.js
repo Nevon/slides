@@ -1,7 +1,5 @@
 import React from 'react'
 import Code from 'components/Code'
-import SVGCanvas from 'components/SVGCanvas'
-import ExampleSpace from 'components/ExampleSpace'
 
 const exampleCode = `const foo = 'bar';`
 
