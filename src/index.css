@@ -1,0 +1,46 @@
+.component {
+
+}
+
+code, .reveal pre {
+  font-family: 'Fira Code', 'Fira Mono';
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: normal;
+}
+
+.bold {
+  fill: deeppink;
+  stroke: MediumVioletRed;
+  stroke-width: 10px;
+}
+
+.soft {
+  fill: PaleTurquoise;
+  stroke: LightSkyBlue;
+  stroke-width: 5px;
+}
+
+.mouse-events {
+  cursor: pointer;
+  fill: white;
+  stroke: grey;
+  stroke-width: 10px;
+}
+
+.mouse-events:hover {
+  stroke: orangeRed;
+}
+
+.mouse-events:active {
+  stroke: darkRed;
+}
+
+.plain circle {
+  fill: white;
+  stroke: none;
+}
+
+.plain path {
+  stroke: white;
+  fill: none;
+}
